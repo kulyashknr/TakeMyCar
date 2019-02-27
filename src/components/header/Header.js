@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 import logo from './kjj.png' 
 import style from './Header.css';
 
@@ -19,12 +19,14 @@ class Header extends Component {
         <div>
           <img src={logo} alt="logo"/>
         </div>
+        <div className={style.pages}>
         <ul>
           <li><a>Главная</a></li>
           <li><a>О нас</a></li>
           <li><a>Каталог</a></li>
           <li><a>Акции</a></li>
         </ul>
+        </div>
         <div className={style.sign}>
           <img src="https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1" className={style.userStyle} alt="user"/>
                 { (!this.state.isLoggedIn)? 
