@@ -1,0 +1,19 @@
+.title {
+    padding: 15px;
+  }
+
+.main {
+    height: 1080px;
+	background: url(vintage-car-wallpapers-32631-5199035.jpg);
+	background-size: cover;
+    position: relative;
+}
+
+.poehali{
+    position: relative;
+    right: 400px;
+    top: 500px;
+    width: 200px;
+    height: 80px;
+    font-size: xx-large;
+}
