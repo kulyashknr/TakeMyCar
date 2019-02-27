@@ -1,0 +1,625 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ne",
+				"near"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"B",
+				"BlogForm"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"po",
+				"powerr"
+			],
+			[
+				"sa",
+				"salesman_id"
+			],
+			[
+				"de",
+				"department_id"
+			],
+			[
+				"lo",
+				"location_id"
+			],
+			[
+				"dep",
+				"department_id"
+			],
+			[
+				"la",
+				"last_name"
+			],
+			[
+				"f",
+				"first_name"
+			],
+			[
+				"d",
+				"department_id"
+			],
+			[
+				"cu",
+				"customer_id"
+			],
+			[
+				"ord_",
+				"ord_date"
+			],
+			[
+				"ware",
+				"Warehouses"
+			],
+			[
+				"wa",
+				"warehouse"
+			],
+			[
+				"warehou",
+				"Warehouses"
+			],
+			[
+				"co",
+				"country_name"
+			],
+			[
+				"lie",
+				"list-style-type"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"tex",
+				"text-shadow"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"as",
+				"astana"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"s",
+				"sticky"
+			],
+			[
+				"i",
+				"initial"
+			],
+			[
+				"my",
+				"myTable"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"tit",
+				"title_2"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"rad",
+				"radiob"
+			],
+			[
+				"ra",
+				"radiob"
+			],
+			[
+				"r",
+				"radiob"
+			],
+			[
+				"bagro",
+				"background"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"t",
+				"td\tTag"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"paddint",
+				"padding-left"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"border",
+				"border-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kulyashknr/Desktop/JS/my-app/src/index.js",
+		"/Users/kulyashknr/Desktop/JS/JS_2/style2.css",
+		"/Users/kulyashknr/Desktop/JS/JS_2/style.css",
+		"/Users/kulyashknr/Desktop/JS/JS_2/about.html",
+		"/Users/kulyashknr/Desktop/JS/JS_2/index.html",
+		"/Users/kulyashknr/Desktop/JS/index.html",
+		"/Users/kulyashknr/Desktop/Documents/University/third/BCS/gameoflife.cpp",
+		"/Users/kulyashknr/Desktop/gameoflife.cpp",
+		"/Users/kulyashknr/my-app/src/index.js",
+		"/Users/kulyashknr/Desktop/Documents/University/third/BCS/GameOfLife.docx",
+		"/Users/kulyashknr/my-app/src/index.css",
+		"/Users/kulyashknr/Downloads/addsub.v",
+		"/Users/kulyashknr/Desktop/BFDjango/lovefinder/task/main/models.py",
+		"/Users/kulyashknr/activate/bin/activate_this.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week7/env/lib/python2.7/distutils/__init__.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week7/blog/main/models.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week11/todo/main/views.py",
+		"/Users/kulyashknr/Desktop/BFDjango/week11/demo/demo/settings.py",
+		"/Users/kulyashknr/Desktop/week11/demo/api2/views/fbv.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5_upd/todo/main/admin.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5_upd/todo/todo/urls.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5_upd/todo/todo/settings.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Midterm/task2/urls.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Midterm/task1/urls.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Midterm/Midterm/urls.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Midterm/task1/forms.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Midterm/task1/models.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5_upd/todo/main/views.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week7/blog/main/urls.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5_upd/todo/main/templates/edit_task.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5_upd/todo/main/templates/completed_todo_list.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5_upd/todo/main/urls.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5_upd/todo/main/templates/todo_list.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Midterm/task1/views.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Midterm/task1/url.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week7/blog/auth_/views.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week7/blog/main/templates/home.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week7/blog/main/templates/info.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week7/blog/main/templates/edit.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week7/blog/main/templates/base.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week7/blog/auth_/urls.py",
+		"/Users/kulyashknr/Downloads/djangogirls/blog/views.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5/blog/main/models.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5/blog/main/templates/home.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5/blog/main/templates/base.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5/blog/main/templates/index.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5/blog/main/urls.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5/blog/main/forms.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5/blog/blog/urls.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week5/blog/blog/settings.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week4/todo/main/templates/base.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week4/todo/main/views.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week4/todo/main/templates/todo_list.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week4/todo/main/models.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week4/todo/main/forms.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week3/todo/main/templates/todo_list.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week3/todo/main/templates/base.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week3/todo/main/views.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week3/todo/main/templates/completed_todo_list.html",
+		"/Users/kulyashknr/Desktop/BFDjango/Week3/todo/main/static/css/style.css",
+		"/Users/kulyashknr/Desktop/BFDjango/Week3/todo/main/urls.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week3/todo/todo/settings.py",
+		"/Users/kulyashknr/Desktop/BFDjango/Week3/todo/polls/views.py",
+		"/Users/kulyashknr/Desktop/Documents/University/third/BFDjango/Week2/DjangoForBeginners/helloworld_project/helloworld_project/urls.py",
+		"/Users/kulyashknr/Desktop/Documents/University/third/BFDjango/Week2/DjangoForBeginners/helloworld_project/pages/urls.py",
+		"/Users/kulyashknr/Desktop/Documents/University/third/BFDjango/Week2/DjangoForBeginners/helloworld_project/helloworld_project/settings.py",
+		"/Users/kulyashknr/Desktop/Documents/University/third/BFDjango/Week2/DjangoProject/mysite/mysite/settings.py",
+		"/Users/kulyashknr/Desktop/Documents/University/third/BFDjango/Week2/DjangoProject/mysite/mysite/urls.py",
+		"/Users/kulyashknr/Desktop/Documents/University/third/BFDjango/Week2/DjangoProject/mysite/polls/urls.py",
+		"/Users/kulyashknr/Desktop/Documents/University/third/BFDjango/Week2/DjangoProject/mysite/polls/views.py",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CalendarStore.framework/Versions/A/Headers/CalendarStoreErrors.h",
+		"/Users/kulyashknr/Desktop/Documents/University/3/BFDjango/a.py",
+		"/Users/kulyashknr/Desktop/Documents/University/3 year/BFDjango/week1_ex1.py",
+		"/usr/local/Cellar/opencv/3.4.1_5/README.md",
+		"/Users/kulyashknr/Downloads/lab9_kulyash.sql",
+		"/Users/kulyashknr/Downloads/num10_4.m",
+		"/Users/kulyashknr/Desktop/Databases/lab7.sql",
+		"/Users/kulyashknr/Desktop/Databases/lab8_kulyash.sql",
+		"/Users/kulyashknr/Desktop/lab9.sql",
+		"/Users/kulyashknr/Downloads/Lab9_Momyshuly_Nursultan.sql",
+		"/Users/kulyashknr/Desktop/Databases/lab6_kulyash.sql",
+		"/Users/kulyashknr/Desktop/lab8.sql",
+		"/Users/kulyashknr/Desktop/lab8_kulyash.sql",
+		"/Applications/Utilities/Adobe Application Manager/P7/ZStringResources/fr_XM/stringtable.xml",
+		"/Users/kulyashknr/Desktop/lab7.sql",
+		"/Users/kulyashknr/Desktop/lab6_raikhanova_aiym.sql",
+		"/Users/kulyashknr/Downloads/Ex8.m",
+		"/Users/kulyashknr/Downloads/TwentySix.m",
+		"/Users/kulyashknr/Downloads/TwentySeven.m",
+		"/Users/kulyashknr/Downloads/TwentyFive.m",
+		"/Users/kulyashknr/Downloads/TwentyFour.m",
+		"/Users/kulyashknr/Downloads/Fourteen.m",
+		"/Users/kulyashknr/Downloads/Three.m",
+		"/Users/kulyashknr/Downloads/One.m",
+		"/Users/kulyashknr/Downloads/BaundaryFIRST.m",
+		"/Users/kulyashknr/Desktop/lab5.sql",
+		"/Users/kulyashknr/Downloads/lab5.sql",
+		"/Users/kulyashknr/Downloads/labWork4.sql",
+		"/Users/kulyashknr/Desktop/Databases/lab4.sql",
+		"/Users/kulyashknr/Downloads/lab4-2.sql",
+		"/Users/kulyashknr/Desktop/Databases/lab3_k.sql",
+		"/Users/kulyashknr/Desktop/labwork3.sql",
+		"/Users/kulyashknr/Desktop/Databases/lab2.sql",
+		"/Users/kulyashknr/Desktop/Databases/lab3.sql",
+		"/Users/kulyashknr/Downloads/lab3.sql",
+		"/Users/kulyashknr/Desktop/lab2.sql",
+		"/Users/kulyashknr/Desktop/lab1.txt",
+		"/Users/kulyashknr/Downloads/EditDistance.java",
+		"/Users/kulyashknr/Downloads/Threads/Picture.java",
+		"/Users/kulyashknr/Downloads/Threads/Gradient.java",
+		"/Users/kulyashknr/Downloads/Streams+Serialization_1/src/Serialization/SerializingBookObjects.java",
+		"/Users/kulyashknr/Downloads/Streams+Serialization_1/src/Serialization/Deserializing.java",
+		"/Users/kulyashknr/Downloads/Streams+Serialization_1/src/Serialization/Book.java",
+		"/Users/kulyashknr/Desktop/Web/project 2.0/video.html",
+		"/Users/kulyashknr/Desktop/Web/project 2.0/index.html",
+		"/Users/kulyashknr/Desktop/Web/project 2.0/CSS/style_v.css",
+		"/Users/kulyashknr/Desktop/project/CSS/style_m.css",
+		"/Users/kulyashknr/Desktop/project/CSS/style_c.css",
+		"/Users/kulyashknr/Desktop/project/CSS/style.css",
+		"/Users/kulyashknr/Desktop/project/video.html",
+		"/Users/kulyashknr/Desktop/project/menu.html",
+		"/Users/kulyashknr/Desktop/project/contacts.html",
+		"/Users/kulyashknr/Desktop/project/room.html",
+		"/Users/kulyashknr/Desktop/project/register.html",
+		"/Users/kulyashknr/Desktop/project/CSS/style_v.css",
+		"/Users/kulyashknr/Desktop/project/index.html",
+		"/Users/kulyashknr/Desktop/project/sorttable.js",
+		"/Users/kulyashknr/Desktop/Web/project/CSS/style_c.css"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#include <time.h>",
+			"rando",
+			"current",
+			"curr",
+			"datetime",
+			"done_task",
+			"comp",
+			"comp\\",
+			"comp",
+			"compl",
+			".col-lg-12",
+			"col-lg-12 text-center",
+			"produc"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 25.0
+	},
+	"pinned_build_system": "",
+	"project": "App.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/Web/project/menu.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
