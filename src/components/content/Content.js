@@ -68,3 +68,4 @@ class Content extends Component {
 
 
   // Bektemir Kulyash
+  //add Content2
