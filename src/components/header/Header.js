@@ -33,7 +33,7 @@ class Header extends Component {
 
           <Button type="primary" >Logout</Button>
         :
-          <Button type="primary">Login</Button>
+          <Button variant="outline-dark">Login</Button>
         }
         </div>
 

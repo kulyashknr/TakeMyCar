@@ -2,16 +2,104 @@
     padding: 15px;
   }
 
-.main {
+
+
+.car {
     height: 1080px;
-	background: url(back.jpg);
+    background: url(back.jpg);
 	background-size: 100%;
-    height: 700px;
+    height:821px;
 }
 
-.poehali{
+#poehali{
+    position: relative;
     width: 200px;
+    top: 500px;
     height: 80px;
     font-size: xx-large;
-    margin-left: 500px;
+    left: -500px;
+}
+#nextpt{
+    height: 700px;
+	background-color: white;
+	margin-top: 80px;
+}
+
+#sizik {
+	background-color: red;
+	width: 80%;
+}
+
+.sta {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 16px;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    height: 65px;
+    color: #A43B39;
+    margin-top: 60px;
+    /*margin-bottom: 20px;*/
+    
+    }
+    
+    .chta {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    }
+
+    #f40 {
+        position: relative;
+        bottom: 400px;
+    }
+
+
+.sozder {
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+#texter {
+    position: relative;
+	height: 50px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 16px;
+	font-size: 48px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+    color: #000000;
+    bottom: 400px;
+} 
+
+.parf {
+    height: 30px;
+    position: relative;
+	font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 16px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    bottom: 400px;
+    color: #000000;
+
 }
