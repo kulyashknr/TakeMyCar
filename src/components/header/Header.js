@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
 import logo from './kjj.png' 
 import style from './Header.css';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 class Header extends Component {
@@ -21,10 +22,10 @@ class Header extends Component {
         </div>
         <div className={style.pages}>
         <ul>
-          <li><a>Главная</a></li>
-          <li><a>О нас</a></li>
-          <li><a>Каталог</a></li>
-          <li><a>Акции</a></li>
+          <li><Link to="/">Главная</Link></li>
+          <li><Link to="/">О нас</Link></li>
+          <li><Link to="/catalog">Каталог</Link></li>
+          <li><Link to="/">Акции</Link></li>
         </ul>
         </div>
         <div className={style.sign}>
