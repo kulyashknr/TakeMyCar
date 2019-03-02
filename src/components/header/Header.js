@@ -29,7 +29,7 @@ class Header extends Component {
         </ul>
         </div>
         <div className={style.sign}>
-          <img src="https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1" className={style.userStyle} alt="user"/>
+        <a href="/userpage"><img  src="https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1" className={style.userStyle} alt="user"/></a>
                 { (!this.state.isLoggedIn)? 
 
           <Button type="primary" >Logout</Button>
