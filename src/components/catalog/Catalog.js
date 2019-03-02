@@ -5,7 +5,7 @@ const CatalogPage = () => {
     return (
         <div className="catalog_page">
         <h1>
-          hello catalog
+          hello catalog asdasda
         </h1>
 
         </div>
