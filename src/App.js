@@ -4,6 +4,7 @@ import Header from './components/header/Header'
 import Content from './components/content/Content'
 import Footer from './components/footer/Footer' 
 import Catalog from './components/catalog/Catalog' 
+import UserPage from './components/userpage/UserPage'
 
 import "react-bootstrap/dist/react-bootstrap.min.js"
 
@@ -19,7 +20,7 @@ class App extends Component {
         <Header />
         <Route exact path="/" component={Content}/>
         <Route exact path="/catalog" component={Catalog}/>
-
+        <Route exact path="/userpage" component ={UserPage}/>
         <Footer />
       </div>
       </Router>

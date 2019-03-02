@@ -1,0 +1,6 @@
+.backg{
+    background: url('red_backg.jpg');
+    background-size: 100%;
+    background-size: cover;
+    height: 1000px;
+}
