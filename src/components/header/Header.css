@@ -5,10 +5,11 @@
   align-items: center;
   font-family: sans-serif; 
   box-sizing: border-box;
-  position: fixed; 
+  position: relative; 
   padding-left: 200px;
   padding-right: 200px;
-
+  background-color: rgba(0, 0, 0, 0);
+  z-index:1;
 }
 ul {
   margin-right: 100px;
@@ -40,5 +41,6 @@ li:hover {
 
 }
 
-
-
+.links {
+  color: black;
+}

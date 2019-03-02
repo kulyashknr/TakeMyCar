@@ -22,10 +22,10 @@ class Header extends Component {
         </div>
         <div className={style.pages}>
         <ul>
-          <li><Link to="/">Главная</Link></li>
-          <li><Link to="/">О нас</Link></li>
-          <li><Link to="/catalog">Каталог</Link></li>
-          <li><Link to="/">Акции</Link></li>
+          <li><Link to="/" className="links">Главная</Link></li>
+          <li><Link to="/"  className="links">О нас</Link></li>
+          <li><Link to="/catalog"  className="links">Каталог</Link></li>
+          <li><Link to="/"  className="links">Акции</Link></li>
         </ul>
         </div>
         <div className={style.sign}>
