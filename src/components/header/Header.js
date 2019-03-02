@@ -34,7 +34,7 @@ class Header extends Component {
 
           <Button type="primary" >Logout</Button>
         :
-          <Button variant="outline-dark">Login</Button>
+          <Button variant="outline-light">Login</Button>
         }
         </div>
 

@@ -5,10 +5,9 @@
 
 
 .car {
-    height: 1080px;
     background: url(back.jpg);
 	background-size: 100%;
-    height:821px;
+    height: 820px;
 }
 
 #poehali{
@@ -17,7 +16,7 @@
     top: 500px;
     height: 80px;
     font-size: xx-large;
-    left: -500px;
+    left: -300px;
 }
 #nextpt{
     height: 700px;
