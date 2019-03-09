@@ -72,7 +72,8 @@ class UserPage extends Component {
                         </Col>
                     </Row>
                 </Container>
-            </div>
+            </div> 
+            // test
         );
     }
 }
