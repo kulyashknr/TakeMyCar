@@ -41,23 +41,16 @@ class Content extends Component {
                   quis nosasdid est laborum.</p> 
                 </Col>
               </Row>
+
+              <Row className="justify-content-md-center">
+                <div>
+                  <Image width="600px" alt="super-car" src={car} id="f40"/>
+                </div>
+              </Row>
+              <Row className="justify-content-md-center"><h1 id="texter">take my car!</h1></Row>
+              <Row className="justify-content-md-center"><p class="parf">Первый в казахстане сервис каршеринга между юр лицами</p></Row>
+              <Row className="justify-content-md-center"><p class="parf">клаассно круто круто наш проект</p></Row>
           </Container>
-          <Image width="600px" alt="super-car" src={car} id="f40"/>
-          <h1 id="texter">take my car!</h1>
-          <p class="parf">
-            Первый в казахстане сервис каршеринга между юр лицами
-
-
-
-        </p>
-        <p class="parf">
-          клаассно круто круто наш проект
-          
-        </p>
-        <p class="parf">
-          
-          алаллалалааллалалалалалалалалал
-        </p>
         </div>
         );
       }

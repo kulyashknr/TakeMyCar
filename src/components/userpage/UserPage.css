@@ -6,14 +6,6 @@
     
 }
 
-body{
-    background: url('red_backg.jpg');
-    background-size: 100%;
-    background-size: cover;
-    
-}
-
-
 #nav{
 
     font-family: Roboto;
@@ -178,4 +170,14 @@ body{
     font-weight: normal;
     line-height: 20px;
     font-size: 17px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
 }

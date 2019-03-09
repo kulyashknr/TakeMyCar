@@ -3,12 +3,12 @@
     width: 100%;
 }
 
-body{
+/* body{
     background: url('red_backg.jpg');
     background-size: 100%;
     background-size: cover;
     
-}
+} */
 
 :local(.o-nas) {
 	text-align: right;

@@ -3,6 +3,7 @@
   }
 
 .car {
+    margin-top: -120px;
     background: url(back.jpg);
 	background-size: 100%;
     height: 820px;
@@ -17,7 +18,7 @@
     left: -300px;
 }
 #nextpt{
-    height: 700px;
+    height: 900px;
 	background-color: white;
 	margin-top: 80px;
 }
@@ -39,7 +40,7 @@
     height: 65px;
     color: #A43B39;
     margin-top: 60px;
-    /*margin-bottom: 20px;*/
+    
     
     }
     
@@ -59,10 +60,8 @@
     
     }
 
-    #f40 {
-        position: relative;
-        bottom: 400px;
-    }
+ 
+    
 
 
 .sozder {
@@ -83,7 +82,7 @@
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
     color: #000000;
-    bottom: 400px;
+    
 } 
 
 .parf {
@@ -96,12 +95,7 @@
     font-size: 30px;
     text-align: center;
     letter-spacing: 0.04em;
-    bottom: 400px;
+    
     color: #000000;
 
-}
-
-.cont {
-    top: -120px;
-    position: relative;
 }
