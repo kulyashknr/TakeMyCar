@@ -1,9 +1,9 @@
 import React from "react";
-import {Container, Row, Col} from "react-bootstrap"
 import './Footer.css'
+import {Container, Row, Col} from "react-bootstrap"
 const FooterPage = () => {
     return (
-        <Container fluid className="footer_c justify-between">
+        <Container fluid className="footer_c justify-between" >
           <Row className="justify-content-center pt-5">
             <Col sm lg={3}>
               <h2 class="chta">Информация о нас</h2>
@@ -26,9 +26,8 @@ const FooterPage = () => {
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolo um.</p>            
             </Col>
-          </Row> 
-          <div className="krpolosa">      
-          </div>
+          </Row>
+          <Row id="krpolosa"></Row>
         </Container>
     );
   }

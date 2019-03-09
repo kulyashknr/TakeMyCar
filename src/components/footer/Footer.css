@@ -11,7 +11,12 @@
 	font-size: 12px;
 }
 
-.krpolosa {
+#krpolosa {
 	height: 20px;
 	background-color: #A43B39;
+
+}
+
+.footer_c justify-between {
+
 }
