@@ -19,6 +19,7 @@ class UserPage extends Component {
                                 <ListGroup.Item>Избранное</ListGroup.Item>
                                 <ListGroup.Item>Мои тачки</ListGroup.Item>
                                 <ListGroup.Item>Сообщения</ListGroup.Item>
+                                <ListGroup.Item className="empty"></ListGroup.Item>
                                 <ListGroup.Item className="add">Добавить тачку</ListGroup.Item>
                             </ListGroup>
                         </Col>
@@ -27,15 +28,18 @@ class UserPage extends Component {
                                 <Col xs lg="2"><img  src="https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1" className={style.userStyle} alt="user"/></Col>
                                 <Col id="main" >
                                     <div id="main-content">
-                                        <h1 id="user-name">JOHN DOE</h1>
-                                        <div id="line"></div>
-                                        <Container id="stars">
+                                        <Container>
+                                            <Row><h1 id="user-name">JOHN DOE</h1></Row>
+                                            <Row><div id="line"></div></Row>
                                             <Row>
-                                                
-                                                <div>S</div>
-                                                <div>S</div>
-                                                <div>S</div>
-                                                <div>S</div>
+                                                <Container id="stars">
+                                                    <Row>
+                                                        <div>S</div>
+                                                        <div>S</div>
+                                                        <div>S</div>
+                                                        <div>S</div>
+                                                 </Row>
+                                                </Container>
                                             </Row>
                                         </Container>
                                         <h1 id="adress">California, LA</h1>

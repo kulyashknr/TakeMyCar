@@ -41,6 +41,12 @@ body{
     color: #FFFFFF;
     background: #A43B39;
     border-radius: 6px;
+    
+}
+
+.empty{
+    color: #FFFFFF;
+    height: 380px;
 }
 
 #main{
