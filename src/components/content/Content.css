@@ -1,4 +1,6 @@
-
+.title {
+    padding: 15px;
+  }
 
 .car {
     background: url(back.jpg);
