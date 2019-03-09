@@ -23,7 +23,7 @@ class Header extends Component {
         <div className={style.pages}>
         <ul>
           <li><Link to="/" className="links">Главная</Link></li>
-          <li><Link to="/"  className="links">О нас</Link></li>
+          <li><Link to="/about"  className="links">О нас</Link></li>
           <li><Link to="/catalog"  className="links">Каталог</Link></li>
           <li><Link to="/"  className="links">Акции</Link></li>
         </ul>
