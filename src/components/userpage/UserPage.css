@@ -1,8 +1,175 @@
-.backg{
+.usermain{
+    
+    
+    height: 800px;
+    
+    
+}
+
+body{
     background: url('red_backg.jpg');
     background-size: 100%;
     background-size: cover;
-    height: 1000px;
-    position: relative;
-    top: -120px;
+    
+}
+
+
+#nav{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 0, 0.64);
+
+    border-radius: 6px;
+}
+
+#nav_list{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    width: 400px;
+    height: 577px;
+}
+
+.add{
+    color: #FFFFFF;
+    background: #A43B39;
+    border-radius: 6px;
+}
+
+#main{
+    width: 700px;
+    height: 198px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    z-index: -1;
+}
+
+#second{
+    margin-top: 10px;
+    width: 705px;
+    height: 369px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+
+#info{
+    
+}
+
+:local(.userStyle)  {
+    width: 200px;
+    height: 200px;
+    
+    margin-left:-6px;
+    z-index: 1;
+
+  }
+
+  #user-name{
+   
+    width: 125.64px;
+    height: 30px;
+    
+    font-family: Cambria Math;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.0357143em;
+    
+    color: #000000;
+    
+    border-radius: 6px;
+  }
+
+  #line{
+    width: 376.92px;
+    height: 0px;
+    
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+
+  #adress{
+    
+    width: 92.63px;
+    height: 17px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.0357143em;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+
+  #main-content{
+      margin-left: 80px;
+  }
+
+  #stars{
+    margin-top: 40px;
+  }
+
+
+#info-text{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 0, 0.64);
+
+    border-radius: 6px;
+}
+
+#info-text2{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.0357143em;
+    
+    color: #000000;
+}
+
+
+
+#navbar{
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 17px;
 }
