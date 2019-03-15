@@ -4,7 +4,8 @@ import './Catalog.css'
 import SearchLogo from './search-solid.png'
 import DownLogo from './down-arrow.png'
 import TopCar from './TopCar.png'
-import StarrLogo from './star.png'
+import HCar from './hyundai.png'
+import StarrLogo from '../../star.png'
 
 const CatalogPage = () => {
     return (
@@ -62,7 +63,7 @@ const CatalogPage = () => {
                 <div id="subaru_text">
                   Subaru WRX STI 2012
                 </div>
-                <Image src={TopCar} rounded width={450} />
+                <Image src={HCar} rounded width={450} />
               </Col>
               <Col>
                 <h1>
@@ -72,11 +73,6 @@ const CatalogPage = () => {
                   За 6 лет Hyundai Accent стал поистине народным автомобилем.
                 </p>
 
-                  <img src={StarrLogo} width={30}/>
-                  <img src={StarrLogo} width={30}/>
-                  <img src={StarrLogo} width={30}/>
-                  <img src={StarrLogo} width={30}/>
-                  <img src={StarrLogo} width={30}/>
                 <p>
                   Accent сочетает экономичность и удобство городского седана.
                 </p>

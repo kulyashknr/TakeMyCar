@@ -6,6 +6,8 @@ import Footer from './components/footer/Footer'
 import Catalog from './components/catalog/Catalog' 
 import UserPage from './components/userpage/UserPage'
 import about from './components/about/about'
+import login from './components/login/login'
+import registration from './components/registration/registration'
 
 import "react-bootstrap/dist/react-bootstrap.min.js"
 
@@ -23,6 +25,8 @@ class App extends Component {
         <Route exact path="/catalog" component={Catalog}/>
         <Route exact path="/userpage" component ={UserPage}/>
         <Route exact path="/about" component ={about}/>
+        <Route exact path="/login" component ={login}/>
+        <Route exact path="/registration" component ={registration}/>
         <Footer />
       </div>
       </Router>
