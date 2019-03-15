@@ -1,15 +1,13 @@
 .header {
   width: 100%;
-  height: 120px;
+  height: 70px;
   display: flex;
   align-items: center;
   font-family: sans-serif; 
   box-sizing: border-box;
   position: relative; 
   padding-left: 200px;
-  padding-right: 200px;
-  background-color: rgba(0, 0, 0, 0);
-  z-index:1;
+  background-color: #260957;
 }
 ul {
   margin-right: 100px;
@@ -17,16 +15,10 @@ ul {
 li {
   display: inline;
   padding: 30px;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Roboto;
-  color: white;
-  font-weight: bold;
 }
 
-li:hover {
-  border: 10px;
-  color: #A43B39;
-}
 
 :local(.userStyle)  {
   width: 50px;
@@ -34,14 +26,24 @@ li:hover {
   margin-right: 15px;
 }
 
-:local(.sign){
+.sign {
 	display: flex;
   align-items: center; 
-  width: 120px;
+  width: 100px;
   justify-content: space-between;
-
+  float: right;
 }
 
 .links {
-  color: black;
+  color: white;
+
 }
+
+.pages {
+  padding-right: 180px;
+}
+
+.log_button {
+  color: white;
+}
+

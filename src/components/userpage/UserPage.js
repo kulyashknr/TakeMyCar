@@ -3,12 +3,11 @@ import { Button, Container , Row, Col, Image, ListGroup, Nav, Navbar} from 'reac
 import { BrowserRouter as Router, Route, Link , } from "react-router-dom";
 import style from './UserPage.css';
 import './UserPage.css'
-import StarrLogo from '/Users/Apple/Desktop/JS/src/components/catalog/star.png'
+import StarrLogo from '../../star.png'
 
 class UserPage extends Component {
     render(){
-        return(
-            
+        return(          
             <div className="usermain">
                 <Container>
                     <Row>

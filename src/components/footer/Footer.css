@@ -1,23 +1,30 @@
 .footer_c {
 	margin-top: 50px;
-	background-color: rgb(220,220,220);
+	background-color: #532380;
 	height: auto;
 }
 
-.chta {
+.foot_chta {
 	font-size: 16px;
+	color: white;
+    margin-bottom: 20px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+	text-transform: uppercase;
 }
 
 .sozdesr {
-	font-size: 12px;
+	font-size: 8px;
+	color: white;
+
 }
 
 #krpolosa {
 	height: 20px;
-	background-color: #A43B39;
-
-}
-
-.footer_c justify-between {
+	background-color: #260957;
 
 }

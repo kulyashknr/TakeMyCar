@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
-import logo from './kjj.png' 
+import logo from './logo1.png' 
 import style from './Header.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
@@ -17,10 +17,10 @@ class Header extends Component {
     // let isLoggedIn = true;
     return (
       <div className="header" >
-        <div>
+        <div className="logo">
           <img src={logo} alt="logo"/>
         </div>
-        <div className={style.pages}>
+        <div className="pages">
         <ul>
           <li><Link to="/" className="links">Главная</Link></li>
           <li><Link to="/about"  className="links">О нас</Link></li>
@@ -28,13 +28,13 @@ class Header extends Component {
           <li><Link to="/"  className="links">Акции</Link></li>
         </ul>
         </div>
-        <div className={style.sign}>
+        <div className="sign">
         <a href="/userpage"><img  src="https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1" className={style.userStyle} alt="user"/></a>
                 { (!this.state.isLoggedIn)? 
 
-          <Button type="primary" >Logout</Button>
+          <Button type="primary" >Выйти</Button>
         :
-          <Button variant="outline-light">Login</Button>
+          <Button variant="outline-light"><Link to="/login" className="log_button">Войти</Link></Button>
         }
         </div>
 
