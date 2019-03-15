@@ -6,10 +6,12 @@ import DownLogo from './down-arrow.png'
 import TopCar from './TopCar.png'
 import StarrLogo from './star.png'
 
+
+
 const CatalogPage = () => {
     return (
         <div className="catalog_page">
-
+          
           <Container>
             <Row className="inp_row">
               <Col>
