@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Content.css';
 import { Button, Container , Row, Col, Image} from 'react-bootstrap';
 import car from './f40.png';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 class Content extends Component {
@@ -11,7 +12,7 @@ class Content extends Component {
         <div className="cont">
           <div className="car" >
           <Button variant="outline-light" id="poehali">
-            <span>ПОЕХАЛИ</span>
+            <span><Link to="/catalog"  className="links">ПОЕХАЛИ</Link></span>
           </Button>
           </div>
           <Container id="nextpt">
@@ -48,8 +49,8 @@ class Content extends Component {
                 </div>
               </Row>
               <Row className="justify-content-md-center"><h1 id="texter">take my car!</h1></Row>
-              <Row className="justify-content-md-center"><p class="parf">Первый в казахстане сервис каршеринга между юр лицами</p></Row>
-              <Row className="justify-content-md-center"><p class="parf">клаассно круто круто наш проект</p></Row>
+              <Row className="justify-content-md-center"><p class="parf">Первый в казахстане сервис каршеринга между юридическими лицами</p></Row>
+              <Row className="justify-content-md-center"><p class="parf">Мы поможем найти машину по душе в один клик</p></Row>
           </Container>
         </div>
         );

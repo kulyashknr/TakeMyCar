@@ -1,7 +1,7 @@
 .catalog_page {
     height: auto;
     width: 100%;
-    background: url('red_backg.jpg');
+    background-color: #A43B39;
     position: relative;
     top: -120px;
     padding-top: 120px;

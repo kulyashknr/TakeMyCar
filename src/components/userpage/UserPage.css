@@ -5,7 +5,9 @@
     
     
 }
-
+body{
+    background-color: #A43B39;
+}
 #nav{
 
     font-family: Roboto;
@@ -30,8 +32,8 @@
 }
 
 .add{
-    color: #FFFFFF;
-    background: #A43B39;
+    color: #A43B39;
+    background: #FFFFFF;
     border-radius: 6px;
     
 }
