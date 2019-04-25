@@ -44,7 +44,7 @@ class App extends Component {
       <Router>
       <div className="App">
         <Header />
-        <div>
+{/*         <div>
           <div className="post-container">
           
             <b>{this.props.firstPost.title}</b>
@@ -56,7 +56,7 @@ class App extends Component {
               </div>
             )}
           </div>
-        </div>
+        </div> */}
         <Route exact path="/" component={Content}/>
         <Route exact path="/catalog" component={Catalog}/>
         <Route exact path="/userpage" component ={UserPage}/>
