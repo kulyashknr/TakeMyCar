@@ -1,5 +1,5 @@
 .about {
-    height: 600px;
+    height: 100%;
     width: 100%;
 }
 
@@ -12,4 +12,12 @@
 
 :local(.o-nas) {
 	text-align: right;
+}
+
+.justify-content-md-center{
+    margin-top: 50px;
+}
+
+.card-body{
+    border: 3px solid #260957;
 }
