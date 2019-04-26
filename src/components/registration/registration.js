@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Form from 'react-bootstrap/Form'; 
-import { Button, Container , Row, Col, Image, ListGroup, Nav, Navbar} from 'react-bootstrap';
+import { Button, Container , Row } from 'react-bootstrap';
 import '../login/login.css'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const login = () => {
     return (
@@ -24,11 +25,12 @@ const login = () => {
             <Form.Label>Пароль</Form.Label>
               <Form.Control type="password" placeholder="Password" />
           </Form.Group>
-          <Form.Group controlId="formBasicChecbox">
-            <Form.Check type="checkbox" label="Запомнить меня" />
+          <Form.Group controlId="formBasicPassword">
+            <Form.Label>Повторите пароль</Form.Label>
+              <Form.Control type="password" placeholder="Password" />
           </Form.Group>
           <Button variant="primary" type="submit">
-            Войти
+            Зарегестрироваться
           </Button>
         </Form>
         </div>
