@@ -1,0 +1,43 @@
+.about {
+    height: 100%;
+    width: 100%;
+}
+
+#cont{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+:local(.o-nas) {
+	text-align: right;
+}
+
+.justify-content-md-center{
+    margin-top: 50px;
+}
+
+.card-body{
+    border: 3px solid #260957;
+}
+
+.text1 {
+    float: left;
+    width: 400px;
+    font-family: Roboto;
+    margin-top: 100px;
+    text-align: left;
+}
+
+
+.text2 {
+    float: right;
+    width: 400px;
+    font-family: Roboto;
+    margin-top: 100px;
+    text-align: left;
+}
+
+#people1 {
+    margin-top: 50px;
+    margin-left: 100px;
+ }

@@ -1,0 +1,100 @@
+.title {
+    padding: 15px;
+  }
+
+.car {
+    background: url(back2.jpg);
+	background-size: 100%;
+    height: 500px;
+
+}
+
+#poehali{
+    position: relative;
+    width: 200px;
+    top: 300px;
+    height: 80px;
+    font-size: xx-large;
+}
+#nextpt{
+    height: 1000px;
+	background-color: white;
+	margin-top: 60px;
+}
+
+#sizik {
+	background-color: #260957;
+	width: 80%;
+}
+
+.sta {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 16px;
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    height: 65px;
+    margin-top: 30px;
+    color: #a400b4;
+    
+    }
+    
+    .chta {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #260957;
+    }
+
+ 
+.sozder {
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+#texter {
+    margin-top: 20px;
+    position: relative;
+	height: 50px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 16px;
+	font-size: 48px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+    color: #000000;
+    
+} 
+
+.parf {
+    height: 20px;
+    position: relative;
+	font-family: Roboto;
+    font-weight: 300;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 0.04em;  
+    color: #000000;
+    margin-right: 35px;
+    margin-left: 35px;
+
+}
+
+#reg {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
