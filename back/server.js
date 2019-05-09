@@ -25,6 +25,7 @@ mongoose.connect(dbConfig.url, {
 
 require('./app/routes/car.route.js')(app);
 require('./app/routes/user.route.js')(app);
+require('./app/routes/order.route.js')(app);
 
 // listen for requests
 app.listen(8000, () => {
