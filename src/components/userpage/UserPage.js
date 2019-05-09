@@ -1,82 +1,107 @@
 import React, { Component } from 'react';
-import { Button, Container , Row, Col, Image, ListGroup, Nav, Navbar} from 'react-bootstrap';
+import { Button, Container,Tab, Row, Col, Image, ListGroup, Nav, Navbar} from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Link , } from "react-router-dom";
 import style from './UserPage.css';
 import './UserPage.css'
-import StarrLogo from '../../star.png'
 
 class UserPage extends Component {
     render(){
-        return(          
-            <div className="usermain">
-                <Container>
-                    <Row>
-                        <Col id="nav">
-                            <ListGroup id="nav_list" variant="flush">
-                                <ListGroup.Item>Здравствуйте, John</ListGroup.Item>
-                                <ListGroup.Item>История</ListGroup.Item>
-                                <ListGroup.Item>Избранное</ListGroup.Item>
-                                <ListGroup.Item>Мои тачки</ListGroup.Item>
-                                <ListGroup.Item>Сообщения</ListGroup.Item>
-                                <ListGroup.Item className="empty"></ListGroup.Item>
-                                <ListGroup.Item className="add">Добавить тачку</ListGroup.Item>
-                            </ListGroup>
-                        </Col>
-                        <Col id="info">
+        return(
+            <Container className="emp-profile">
+                <Row>
+                    <Col md = {4}>
+                        <div class="profile-img">
+                            <img src="https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1" className={style.userStyle} alt="user" alt=""/>
+                            <div class="file btn btn-lg btn-primary">
+                                Change Photo
+                                <input type="file" name="file"/>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col md={6}>
+                        <div class="profile-head">
+                            <h5>
+                                Джон Доу
+                            </h5>
+                            <h6>
+                                Алматы, Казахстан
+                            </h6>
+                            <p class="proile-rating">Рейтинг : <span>7/10</span></p>
+                        </div>
+                    </Col>
+                    <Col md={2}>
+                        <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={4}></Col>
+                    <Col md={8}>
+                        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                             <Row>
-                                <Col xs lg="2"><img  src="https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1" className={style.userStyle} alt="user"/></Col>
-                                <Col id="main" >
-                                    <div id="main-content">
-                                        <Container>
-                                            <Row><h1 id="user-name">JOHN DOE</h1></Row>
-                                            <Row><div id="line"></div></Row>
-                                            <Row>
-                                                <Container id="stars">
-                                                    <Row>
-                                                        <div><img src={StarrLogo} width={30}/></div>
-                                                        <div><img src={StarrLogo} width={30}/></div>
-                                                        <div><img src={StarrLogo} width={30}/></div>
-                                                        <div><img src={StarrLogo} width={30}/></div>
-                                                 </Row>
-                                                </Container>
-                                            </Row>
-                                        </Container>
-                                        <h1 id="adress">California, LA</h1>
-                                    </div>
+                                <Col sm={3}>
+                                <Nav variant="pills" className="flex-column">
+                                    <Nav.Item>
+                                    <Nav.Link eventKey="first">Мои Данные</Nav.Link>
+                                    </Nav.Item>
+                                    <Nav.Item>
+                                    <Nav.Link eventKey="second">Мои Тачки</Nav.Link>
+                                    </Nav.Item>
+                                    <Nav.Item>
+                                    <Nav.Link eventKey="third">Избранное</Nav.Link>
+                                    </Nav.Item>
+                                    <Nav.Item>
+                                    <Nav.Link eventKey="four">Заказы</Nav.Link>
+                                    </Nav.Item>
+                                    
+                                </Nav>
+                                </Col>
+                                <Col sm={9}>
+                                <Tab.Content>
+                                    <Tab.Pane eventKey="first">
+                                        <Row>
+                                            <Col md={6}>
+                                                <p>Имя пользователя</p>
+                                            </Col>
+                                            <Col md={6}>
+                                                <p>John_Doe123</p>
+                                            </Col>
+                                            <Col md={6}>
+                                                <p>Имя</p>
+                                            </Col>
+                                            <Col md={6}>
+                                                <p>Джон Доу</p>
+                                            </Col>
+                                            <Col md={6}>
+                                                <p>Email</p>
+                                            </Col>
+                                            <Col md={6}>
+                                                <p>jonhd_111@gmail.com</p>
+                                            </Col>
+                                            <Col md={6}>
+                                                <p>Телефон</p>
+                                            </Col>
+                                            <Col md={6}>
+                                                <p>865363542</p>
+                                            </Col>
+                                            <Col md={6}>
+                                                <p>Дата рождения</p>
+                                            </Col>
+                                            <Col md={6}>
+                                                <p>1 января, 1996</p>
+                                            </Col>
+                                        </Row>
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="second">
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="third">
+                                    </Tab.Pane>
+                                </Tab.Content>
                                 </Col>
                             </Row>
-                            <Row id="second">
-                                <Container>
-                                    <Row>
-                                        <Nav id="navbar" variant="tabs" defaultActiveKey="/home">
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="link-1">Данные</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="link-2">Контакты</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="link-3">Отзывы</Nav.Link>
-                                            </Nav.Item>
-                                        </Nav>
-                                    </Row>
-                                    <Row>
-                                        <ListGroup id="info-text" variant="flush">
-                                            <ListGroup.Item>Пол
-                                                 <h1 id="info-text2">Мужской</h1>
-                                            </ListGroup.Item>
-                                            <ListGroup.Item>Дата рождения
-                                                <h1 id="info-text2">14/07/1985</h1>
-                                            </ListGroup.Item>
-                                        </ListGroup>
-                                    </Row>
-                                </Container>
-                            </Row>
-                        </Col>
-                    </Row>
-                </Container>
-            </div> 
-            // test
+                        </Tab.Container>
+                    </Col>
+                </Row>
+            </Container>
         );
     }
 }
