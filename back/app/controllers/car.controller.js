@@ -1,4 +1,5 @@
 const Car = require('../models/car.model.js');
+const User = require ('../models/user.model.js');
 
 exports.create = (req, res) => {
     // Validate request
@@ -57,36 +58,36 @@ exports.findOne = (req, res) => {
 };
 
 exports.update = (req, res) => {
-    // Validate Request
-    if ((!req.body.model) && (!req.body.mark) && (!req.body.color)) {
-        return res.status(400).send({
-            message: "Car content can not be empty"
-        });
-    }
+        // Validate Request
+        if ((!req.body.model) && (!req.body.mark) && (!req.body.color)) {
+            return res.status(400).send({
+                message: "Car content can not be empty"
+            });
+        }
 
-    // Find car and update it with the request body
-    Car.findByIdAndUpdate(req.params.carId, {
-        model: req.body.model || "Untitled Car",
-        mark: req.body.mark,
-        color: req.body.color
-    }, {new: true})
-        .then(car => {
-            if(!car) {
+        // Find car and update it with the request body
+        Car.findByIdAndUpdate(req.params.carId, {
+            model: req.body.model || "Untitled Car",
+            mark: req.body.mark,
+            color: req.body.color
+        }, {new: true})
+            .then(car => {
+                if (!car) {
+                    return res.status(404).send({
+                        message: "Car not found with id " + req.params.carId
+                    });
+                }
+                res.send(car);
+            }).catch(err => {
+            if (err.kind === 'ObjectId') {
                 return res.status(404).send({
                     message: "Car not found with id " + req.params.carId
                 });
             }
-            res.send(car);
-        }).catch(err => {
-        if(err.kind === 'ObjectId') {
-            return res.status(404).send({
-                message: "Car not found with id " + req.params.carId
+            return res.status(500).send({
+                message: "Error updating car with id " + req.params.carId
             });
-        }
-        return res.status(500).send({
-            message: "Error updating car with id " + req.params.carId
         });
-    });
 };
 
 exports.delete = (req, res) => {

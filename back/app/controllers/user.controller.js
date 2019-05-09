@@ -1,9 +1,11 @@
 const User = require('../models/user.model.js');
+const key=require("../../key");
+const jwt=require('jsonwebtoken');
 
 exports.create = (req, res) => {
-    if((!req.body.username) && (!req.body.password)){
+    if((!req.body.username) || (!req.body.password)){
         return res.status(400).send({
-            message: "can not be empty"
+            message: "Bad request"
         });
     }
 
@@ -20,6 +22,27 @@ exports.create = (req, res) => {
             message: err.message || "Some error occurred while creating the User"
         });
     });
+};
+
+exports.login = (req,res) =>{
+    User.findOne({username:req.body.username}).then((user)=>{
+        user.comparePassword(req.body.password,(err,isMatch)=>{
+            if(isMatch){
+                console.log("done");
+                var token=jwt.sign({userId:user.id}, key.tokenKey);
+                res.status(200).json({
+                    userId:user.id,
+                    username: user.username,
+                    token
+                })
+            }
+            else{
+                res.status(400).json({message:'error'});
+            }
+        })
+    }).catch((err)=>{
+        res.status(400).json({message:'error'});
+    })
 };
 
 exports.findAll = (req, res) => {
@@ -54,54 +77,3 @@ exports.findOne = (req, res) => {
     });
 };
 
-exports.update = (req, res) => {
-    if ((!req.body.username) && (!req.body.password)) {
-        return res.status(400).send({
-            message: "User content can not be empty"
-        });
-    }
-
-    User.findByIdAndUpdate(req.params.userId, {
-        username: req.body.username,
-        password: req.body.password,
-
-    }, {new: true})
-        .then(user => {
-            if(!user) {
-                return res.status(404).send({
-                    message: "User not found with id " + req.params.userId
-                });
-            }
-            res.send(user);
-        }).catch(err => {
-        if(err.kind === 'ObjectId') {
-            return res.status(404).send({
-                message: "User not found with id " + req.params.userId
-            });
-        }
-        return res.status(500).send({
-            message: "Error updating user with id " + req.params.userId
-        });
-    });
-};
-
-exports.delete = (req, res) => {
-    User.findByIdAndRemove(req.params.userId)
-        .then(user => {
-            if(!user) {
-                return res.status(404).send({
-                    message: "User not found with id " + req.params.userId
-                });
-            }
-            res.send({message: "User deleted successfully!"});
-        }).catch(err => {
-        if(err.kind === 'ObjectId' || err.name === 'NotFound') {
-            return res.status(404).send({
-                message: "User not found with id " + req.params.userId
-            });
-        }
-        return res.status(500).send({
-            message: "Could not delete user with id " + req.params.userId
-        });
-    });
-};
