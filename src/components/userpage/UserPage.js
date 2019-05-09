@@ -26,7 +26,7 @@ class UserPage extends Component {
                             <h6>
                                 Алматы, Казахстан
                             </h6>
-                            <p class="proile-rating">Рейтинг : <span>7/10</span></p>
+                            <p class="proile-rating">РЕЙТИНГ: <span>7/10</span></p>
                         </div>
                     </Col>
                     <Col md={2}>

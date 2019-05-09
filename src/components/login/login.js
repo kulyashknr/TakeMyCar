@@ -30,6 +30,8 @@ const login = () => {
           <Button variant="primary" type="submit">
             Войти
           </Button>
+          <p> Нет аккаунта? </p>
+          <a href="/registration"> Зарегестрироваться </a>
         </Form>
         </div>
       </Row>
