@@ -33,7 +33,7 @@ class Header extends Component {
 
                  <Button type="primary" >Выйти</Button>
             :
-              <Button variant="outline-light"><Link to="/login" className="log_button">Войти</Link></Button>
+              <Button variant="outline-light mr-2"><Link to="/login" className="log_button">Войти</Link></Button>
             }
                <Button variant="outline-light"><Link to="/registration" className="log_button">Регистрация</Link></Button>
         </div>
