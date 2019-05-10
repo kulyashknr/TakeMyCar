@@ -2,34 +2,13 @@ import React, { Component } from 'react';
 import './Content.css';
 import { Button, Container , Row, Col, Image} from 'react-bootstrap';
 import car from './car_side.png';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { connect } from 'react-redux';
-import * as postActions from '../.././actions/postActions';
+import Link from "react-router-dom/es/Link";
+
 
 
 class Content extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      
-    }
-    this.handleCreatePost = this.handleCreatePost.bind(this);
-  }
-
-  componentDidMount() {
-    this.props.getPosts();
-  }
-
-  handleCreatePost() {
-    let data = {
-      title: "welcome to world",
-      body: "hello world",
-      userId: 1
-    }
-    this.props.createPost(data);
-  }
     render() {
-      console.log(this.props.firstPost);
         return (
         <div className="cont">
           <div className="car" >
@@ -80,20 +59,7 @@ class Content extends Component {
         );
       }
     };
-    
-  
-  
-  const mapStateToProps = (state) => ({
-  posts: state.post.posts,
-  firstPost: state.post.firstPost
-})
 
-const mapDispatchToProps = {
-  getPosts: postActions.getPosts,
-  createPost: postActions.createPost
-}
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Content);
+
+export default Content;
