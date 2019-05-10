@@ -2,18 +2,20 @@ import logo from './logo.svg';
 import React, { Component } from 'react';
 import './App.css';
 import { connect } from 'react-redux';
-import * as actionTypes from './constants/actionTypes'
 import NewPost from './components/NewPost';
+import CreateCar from './containers/CreateCar';
+import CarList from './containers/CarList';
+
 class App extends Component {
   render() {
     return (
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <NewPost />
+            <CreateCar />
           </div>
           <div className="col-md-6">
-            Display Post
+              <CarList />
           </div>
         </div>
       </div>

@@ -2,8 +2,11 @@ import React from 'react';
 
 class NewPost extends React.Component {
   state = {
-    title: '',
-    body: ''
+    model: '',
+    mark: '',
+    year: '',
+    color: '',
+    owner: '',
   };
 
   handleInputChange = e => {
@@ -14,7 +17,7 @@ class NewPost extends React.Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    if (this.state.title.trim() && this.state.body.trim()) {
+    if (this.state.model.trim() && this.state.mark.trim() && this.state.year.trim() && this.state.color.trim() && this.state.owner.trim()) {
       console.log(this.state);
       this.handleReset();
     }
@@ -22,8 +25,11 @@ class NewPost extends React.Component {
 
   handleReset = () => {
     this.setState({
-      title: '',
-      body: ''
+        model: '',
+        mark: '',
+        year: '',
+        color: '',
+        owner: '',
     });
   };
 
@@ -34,26 +40,55 @@ class NewPost extends React.Component {
           <div className="form-group">
               <input
               type="text"
-              placeholder="Title"
+              placeholder="Model"
               className="form-control"
-              name="title"
+              name="model"
               onChange={ this.handleInputChange }
-              value={ this.state.title }
+              value={ this.state.model }
             />
           </div>
           <div className="form-group">
-            <textarea
-              cols="19"
-              rows="8"
-              placeholder="Body"
+              <input
+              type="text"
+              placeholder="Mark"
               className="form-control"
-              name="body"
+              name="mark"
               onChange={ this.handleInputChange }
-              value={ this.state.body }>
-            </textarea>
+              value={ this.state.mark }
+            />
           </div>
           <div className="form-group">
-            <button type="submit" className="btn btn-primary">Add Post</button>
+              <input
+              type="text"
+              placeholder="Color"
+              className="form-control"
+              name="color"
+              onChange={ this.handleInputChange }
+              value={ this.state.color }
+            />
+          </div>
+          <div className="form-group">
+              <input
+              type="text"
+              placeholder="Year"
+              className="form-control"
+              name="year"
+              onChange={ this.handleInputChange }
+              value={ this.state.year }
+            />
+          </div>
+          <div className="form-group">
+              <input
+              type="text"
+              placeholder="Owner"
+              className="form-control"
+              name="owner"
+              onChange={ this.handleInputChange }
+              value={ this.state.owner }
+            />
+          </div>
+          <div className="form-group">
+            <button type="submit" className="btn btn-primary"> Add Post</button>
             <button type="button" className="btn btn-warning" onClick={ this.handleReset }>
               Reset
             </button>

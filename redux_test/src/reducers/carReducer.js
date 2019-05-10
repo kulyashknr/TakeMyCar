@@ -7,8 +7,8 @@ export default function carReducer(state = [], action) {
       case actionTypes.ADD_CAR:
         return [...state, action.payload];
       case actionTypes.DELETE_CAR:
-        return state.filter(post => car._id !== action.payload.id);
-        case actionTypes.FETCH_CAR:
+        return state.filter(car => car._id !== action.payload.id);
+      case actionTypes.FETCH_CAR:
         return action.cars;
       default:
         return state;
