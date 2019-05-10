@@ -59,39 +59,6 @@ exports.findOne = (req, res) => {
     });
 };
 
-exports.update = (req, res) => {
-    // Validate Request
-    if ((!req.body.client) || (!req.body.sender) || (!req.body.car)) {
-        return res.status(400).send({
-            message: "Order content can not be empty"
-        });
-    }
-
-    Order.findByIdAndUpdate(req.params.orderId, {
-        client: req.body.client,
-        sender: req.body.sender,
-        car: req.body.car,
-        status: req.body.status || "not done"
-    }, {new: true})
-        .then(order => {
-            if (!order) {
-                return res.status(404).send({
-                    message: "Order not found with id " + req.params.orderId
-                });
-            }
-            res.send(order);
-        }).catch(err => {
-        if (err.kind === 'ObjectId') {
-            return res.status(404).send({
-                message: "Order not found with id " + req.params.orderId
-            });
-        }
-        return res.status(500).send({
-            message: "Error updating order with id " + req.params.orderId
-        });
-    });
-};
-
 exports.delete = (req, res) => {
     Order.findByIdAndRemove(req.params.orderId)
         .then(order => {
